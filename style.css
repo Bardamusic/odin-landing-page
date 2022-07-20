@@ -19,15 +19,27 @@ body {
     align-items: center;
     padding: 0 16px;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 600;
   }
   
   .header-links {
     margin-left: auto;
   }
 
+  .sub-header {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 800;
+    flex: 1 1 0px;
+  }
+
   .sub-text {
     background: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
   }
 
   .content {
@@ -61,4 +73,20 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 200;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.signup {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+  .wrapper {
+    display: flex;
+    background: #1f2937;
   }
